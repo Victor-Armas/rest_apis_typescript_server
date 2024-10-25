@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": ["ESNext"],
+        "target": "ESNext",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "strict": false, //Este se cambia a falso al terminar el proyecto ya que maneja de maera estricta para que no haya Any por el Typescript
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
